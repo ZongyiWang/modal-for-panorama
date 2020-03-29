@@ -24,6 +24,9 @@ p {
 .modal {
   text-align: center;
   padding: 0 !important;
+  left: 5%;
+  width: 40%;
+  min-width: 300px;
 }
 
 .modal:before {
