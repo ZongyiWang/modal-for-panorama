@@ -1,4 +1,46 @@
-.App {
-  font-family: sans-serif;
+/* #detailModal {
+  top: 30%;
+  left: -10%;
+} */
+
+.modal-header {
+  border-bottom: 0;
+}
+.modal-footer {
+  border-top: 0;
+}
+.modal-content {
+  background-color: #11b4b6;
+  opacity: 0.9;
+}
+.modal-backdrop {
+  background-color: blue;
+}
+
+.detailImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  hyphens: auto;
+}
+
+.modal {
   text-align: center;
+  padding: 0 !important;
+}
+
+.modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
